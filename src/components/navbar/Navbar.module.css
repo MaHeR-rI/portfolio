@@ -1,0 +1,31 @@
+.navbar{
+    height: 80px;
+    background-color: var(--dark-color);
+    position: relative;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px var(--side-padding);
+    z-index: 10;
+}
+.navbar .logo img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.navbar .links{ 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.navbar .links a{
+padding:5px ;
+font-size: 18px;
+color: var(--light-color);
+text-transform: capitalize;
+font-weight: 500;
+}

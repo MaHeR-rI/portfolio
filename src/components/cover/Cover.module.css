@@ -1,0 +1,120 @@
+.cover {
+  position: relative;
+  height: calc(100vh - 80px);
+  background-color: var(--dark-color);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  overflow: hidden;
+}
+.cover ul {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.cover ul li {
+  position: absolute;
+  font-weight: bold;
+  color: var(--light-color);
+  opacity: 0.5;
+}
+.cover > div {
+  width: 50%;
+  position: relative;
+  z-index: 3;
+}
+.cover .profile .image {
+  width: 400px;
+  position: relative;
+  margin-left: auto;
+  margin-right: 30px;
+    z-index: 3;
+    
+}
+.cover .profile img {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+   transition: 0.5s;
+   border: 3px solid var(--dark-color);
+}
+.cover .profile .image img:hover{
+  transform: scale(1.05);
+}
+.cover .profile .image::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(90deg, var(--gray-color), var(--light-color));
+  width: 200px;
+  height: 200px;
+  top: -30px;
+  left: -30px;
+}
+.cover .profile .image::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(90deg, var(--gray-color), var(--light-color));
+  width: 200px;
+  height: 200px;
+  bottom: -30px;
+  right: -30px;
+}
+.cover .content{
+  background-color: rgba(34, 34, 34, 0.9);
+  color: var(--white-color);
+  max-width: 400px;
+  min-height: 400px;
+  padding: 10px;
+}
+.cover .content h1{
+  font-family: var(--title-font);
+  margin-bottom: 20px;
+}
+.cover .content p{
+margin-bottom: 40px;
+}
+.cover .content a{
+background-color: var(--light-color);
+padding: 10px 20px;
+color: var(--dark-color);
+margin-left: auto;
+display: block;
+width: max-content;
+}
+.cover .toRight {
+  animation: toRight infinite ease-in-out;
+}
+.cover .toLeft {
+  animation: toLeft infinite ease-in-out;
+}
+@keyframes toRight {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+}
+@keyframes toLeft {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
