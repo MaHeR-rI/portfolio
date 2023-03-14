@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.da3172a5.css",
+    "main.js": "/react-gh-pages/static/js/main.6f2f4632.js",
+    "static/js/787.e4bd7328.chunk.js": "/react-gh-pages/static/js/787.e4bd7328.chunk.js",
+    "static/media/Fashion Fetish Bold.ttf": "/react-gh-pages/static/media/Fashion Fetish Bold.f27d3702496c5ae2149c.ttf",
+    "static/media/logo-light.png": "/react-gh-pages/static/media/logo-light.67922728676af95d8215.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.da3172a5.css.map": "/react-gh-pages/static/css/main.da3172a5.css.map",
+    "main.6f2f4632.js.map": "/react-gh-pages/static/js/main.6f2f4632.js.map",
+    "787.e4bd7328.chunk.js.map": "/react-gh-pages/static/js/787.e4bd7328.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3172a5.css",
+    "static/js/main.6f2f4632.js"
+  ]
+}
