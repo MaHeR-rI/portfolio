@@ -1,12 +1,15 @@
 import Arrows from "./Arrows";
 import classes from "./Cover.module.css";
 const Cover = () => {
+  function handleImageMouseOver() {
+    window.getSelection().removeAllRanges();
+  }
   return (
-    <div className={classes.cover} id="cover">
+    <div className={classes.cover} id="cover"onMouseOver={handleImageMouseOver}>
       <Arrows />
       <div className={classes.profile}>
         <div className={classes.image}>
-          <img
+          <img 
             src="https://scontent.fkye4-1.fna.fbcdn.net/v/t1.6435-9/204908295_974729946662104_1611935914641369766_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=TEEYLmP1ZiMAX_srz1H&_nc_ht=scontent.fkye4-1.fna&oh=00_AfAOa1K67EYsI3vWY-v_WcM4Uc-pp1l6qNUpChkC6dCvow&oe=641B6053"
             alt="maher"
           />

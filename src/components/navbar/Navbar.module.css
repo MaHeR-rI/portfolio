@@ -1,5 +1,5 @@
 .navbar{
-    height: 80px;
+    height: 90px;
     background-color: var(--dark-color);
     position: relative;
     width: 100%;
@@ -28,4 +28,13 @@ font-size: 18px;
 color: var(--light-color);
 text-transform: capitalize;
 font-weight: 500;
+}
+@media (max-width:768px){
+.navbar{
+    display: none;
+}
+
+}
+@media (max-width:576px){
+  
 }

@@ -2,7 +2,7 @@
   font-family: "MyFont";
   src: url("../src/fonts/Fashion\ Fetish\ Bold.ttf") format("woff2");
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 :root {
   --dark-color: #222222;
   --dBlue-color: #0c2544;
@@ -10,18 +10,19 @@
   --gray-color: #636565;
   --lblue-color: #5884a7;
   --light-color: #9ac2c1;
-  --side-padding: 50px;
-  --title-font: 'MyFont',sans-serif;
+  --side-padding: 70px;
+  --title-font: "MyFont", sans-serif;
+  --title-size: 40px;
 }
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   max-width: 2000px;
   overflow-x: hidden;
-} 
+}
 a {
   text-decoration: none;
   font-family: var(--title-font);
@@ -31,6 +32,24 @@ ul {
   padding: 0;
   margin: 0;
 }
-h1,p{
+h1,
+p {
   margin: 0;
+}
+@media (max-width:992px){
+  :root {
+    --side-padding: 50px;
+  }
+}
+@media (max-width:768px){
+  :root {
+    --side-padding: 30px;
+    --title-size: 30px;
+  }
+}
+@media (max-width:576px){
+  :root {
+    --side-padding: 15px;
+    --title-size: 22px;
+  }
 }
