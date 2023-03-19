@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c29d3e74.css",
-    "main.js": "/portfolio/static/js/main.bae32781.js",
+    "main.css": "/portfolio/static/css/main.2c21ec1e.css",
+    "main.js": "/portfolio/static/js/main.9f192219.js",
     "static/js/787.e4bd7328.chunk.js": "/portfolio/static/js/787.e4bd7328.chunk.js",
     "static/media/Fashion Fetish Bold.ttf": "/portfolio/static/media/Fashion Fetish Bold.f27d3702496c5ae2149c.ttf",
     "static/media/logo-light.png": "/portfolio/static/media/logo-light.67922728676af95d8215.png",
     "index.html": "/portfolio/index.html",
-    "main.c29d3e74.css.map": "/portfolio/static/css/main.c29d3e74.css.map",
-    "main.bae32781.js.map": "/portfolio/static/js/main.bae32781.js.map",
+    "main.2c21ec1e.css.map": "/portfolio/static/css/main.2c21ec1e.css.map",
+    "main.9f192219.js.map": "/portfolio/static/js/main.9f192219.js.map",
     "787.e4bd7328.chunk.js.map": "/portfolio/static/js/787.e4bd7328.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c29d3e74.css",
-    "static/js/main.bae32781.js"
+    "static/css/main.2c21ec1e.css",
+    "static/js/main.9f192219.js"
   ]
 }
