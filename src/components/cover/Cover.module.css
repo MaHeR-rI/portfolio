@@ -136,7 +136,7 @@
   .cover{
     padding: 50px var(--side-padding);
     flex-direction: column;
-    height: initial;
+    height: auto;
     gap: 50px;
   }
   .cover .content {
@@ -158,6 +158,10 @@
   }
 }
 @media (max-width:576px){
+  .cover{
+    height: calc(100vh - 90px);
+  }
+
   .cover .profile .image {
     width: 85%;
   }
