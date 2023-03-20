@@ -138,8 +138,8 @@
   .cover{
     padding: 50px var(--side-padding);
     flex-direction: column;
-    height: auto;
     gap: 50px;
+    height: auto;
   }
   .cover .content {
     color: var(--white-color);
@@ -160,9 +160,12 @@
   }
 }
 @media (max-width:576px){
+  .cover{
+    height: calc(100vh - 70px);
+    }
   .cover .profile .image {
     width: 85%;
-    max-width:230px;
+    max-width:300px;
   }
   .cover .profile .image::before {
     width: 50%;
@@ -187,6 +190,6 @@
     font-size: 16px;
   }
   .cover .content a {
-    padding:12px 10px;
+    padding:15px 10px;
   }
 }
