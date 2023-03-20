@@ -1,26 +1,36 @@
 import classes from "./SideNav.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 // import Dlogo from "../../assets/logo-dark.png"
 import Llogo from "../../assets/logo-light.png";
+import { useState } from "react";
 
 const SideNav = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <div className={classes.navbar}>
-      <div className={classes.logo}>
-        <img src={Llogo} alt="logo" />
+    <>
+      <div className={classes.navbar}>
+        <div className={classes.logo}>
+          <img src={Llogo} alt="logo" />
+        </div>
+        <div className={classes.icon}>
+          <FontAwesomeIcon
+            icon={faBars}
+            className="fa-lg"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          />
+        </div>
       </div>
-      <div className={classes.icon}>
-      <FontAwesomeIcon icon={faBars} className="fa-lg"/>
-      </div>
-      {/* <div className={classes.links}>
+      <div className={open ? [classes.links,classes.open].join(' ') : [classes.links,classes.close].join(' ')}>
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="">services</a>
         <a href="">projects</a>
         <a href="">contact</a>
-      </div> */}
-    </div>
+      </div>
+    </>
   );
 };
 export default SideNav;

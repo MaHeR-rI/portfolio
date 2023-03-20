@@ -130,7 +130,9 @@
   }
 }
 @media (max-width:992px){
-
+  .cover{
+  height: calc(100vh - 70px);
+  }
 }
 @media (max-width:768px){
   .cover{
@@ -158,12 +160,9 @@
   }
 }
 @media (max-width:576px){
-  .cover{
-    height: calc(100vh - 90px);
-  }
-
   .cover .profile .image {
     width: 85%;
+    max-width:230px;
   }
   .cover .profile .image::before {
     width: 50%;
@@ -188,6 +187,6 @@
     font-size: 16px;
   }
   .cover .content a {
-    padding: 10px 12px;
+    padding:12px 10px;
   }
 }
