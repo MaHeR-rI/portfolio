@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a62f4189.css",
-    "main.js": "/portfolio/static/js/main.3e5f69ce.js",
+    "main.css": "/portfolio/static/css/main.d2c4041f.css",
+    "main.js": "/portfolio/static/js/main.90b8d165.js",
     "static/js/787.e4bd7328.chunk.js": "/portfolio/static/js/787.e4bd7328.chunk.js",
-    "static/media/my-Image.jpg": "/portfolio/static/media/my-Image.cbcb4f41590c44b281a0.jpg",
+    "static/media/my-Image.jpg": "/portfolio/static/media/my-Image.15c501f4c87feb8c841e.jpg",
     "static/media/Fashion Fetish Bold.ttf": "/portfolio/static/media/Fashion Fetish Bold.f27d3702496c5ae2149c.ttf",
     "static/media/logo-light.png": "/portfolio/static/media/logo-light.ac60f2c812bc897891dd.png",
+    "static/media/about.svg": "/portfolio/static/media/about.b271a021e7da95d9119ff8aec16d585d.svg",
     "index.html": "/portfolio/index.html",
-    "main.a62f4189.css.map": "/portfolio/static/css/main.a62f4189.css.map",
-    "main.3e5f69ce.js.map": "/portfolio/static/js/main.3e5f69ce.js.map",
+    "main.d2c4041f.css.map": "/portfolio/static/css/main.d2c4041f.css.map",
+    "main.90b8d165.js.map": "/portfolio/static/js/main.90b8d165.js.map",
     "787.e4bd7328.chunk.js.map": "/portfolio/static/js/787.e4bd7328.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62f4189.css",
-    "static/js/main.3e5f69ce.js"
+    "static/css/main.d2c4041f.css",
+    "static/js/main.90b8d165.js"
   ]
 }
