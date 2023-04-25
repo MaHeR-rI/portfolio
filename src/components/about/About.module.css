@@ -1,0 +1,106 @@
+.about {
+  background-color: var(--dark-color);
+  padding: var(--side-padding);
+}
+.about .grid {
+  background: linear-gradient(
+    45deg,
+    var(--gray-color) 0%,
+    var(--gray-color) 60%,
+    var(--light-color) 60%,
+    var(--light-color) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about .grid .content {
+  width: 60%;
+  padding: var(--side-padding);
+  color: var(--light-color);
+}
+.about .grid .content h1 {
+  color: var(--light-color);
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  background: linear-gradient(
+    to right,
+    var(--light-color) 0,
+    var(--white-color) 10%,
+    var(--light-color) 20%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite linear;
+  margin-bottom: 20px;
+}
+.about .grid .content p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+.about .grid .image {
+  width: 40%;
+  padding: var(--side-padding);
+}
+.about .grid .image img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+}
+@keyframes shine {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 300px;
+  }
+}
+@media (max-width: 992px) {
+  .about {
+    text-align: center;
+  }
+  .about .grid {
+    background: linear-gradient(
+      200deg,
+      var(--gray-color) 0%,
+      var(--gray-color) 70%,
+      var(--light-color) 70%,
+      var(--light-color) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .grid .content {
+    width: 90%;
+  }
+  .about .grid .image img {
+    width: 100%;
+    margin-left: initial;
+  }
+}
+@media (max-width: 768px) {
+  .about .grid .image {
+    width: 60%;
+  }
+  .about .grid .content h1 {
+    font-size: 30px;
+  }
+  .about .grid .content p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .about .grid .content {
+    width: 100%;
+  }
+  .about .grid .image {
+    width: 80%;
+  }
+  .about .grid .content h1 {
+    font-size: 18ox;
+    font-weight: bold;
+  }
+}

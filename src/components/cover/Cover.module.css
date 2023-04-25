@@ -96,6 +96,14 @@
   margin-left: auto;
   display: block;
   width: max-content;
+  border: 1px solid var(--light-color);
+  transition:all 0.3s;
+}
+.cover .content a:hover{
+  border: 1px solid var(--white-color);
+  background-color: var(--gray-color);
+  color:white;
+  transform: scale(1.05);
 }
 .cover .toRight {
   animation: toRight infinite ease-in-out;
