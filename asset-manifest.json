@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d2c4041f.css",
-    "main.js": "/portfolio/static/js/main.90b8d165.js",
-    "static/js/787.e4bd7328.chunk.js": "/portfolio/static/js/787.e4bd7328.chunk.js",
+    "main.css": "/portfolio/static/css/main.8300a5d9.css",
+    "main.js": "/portfolio/static/js/main.dfd2beb1.js",
+    "static/js/787.8c61e351.chunk.js": "/portfolio/static/js/787.8c61e351.chunk.js",
+    "static/media/MPC.png": "/portfolio/static/media/MPC.4106361f8198d6606377.png",
+    "static/media/jawad.png": "/portfolio/static/media/jawad.7cab2bc3a4f8edc61e72.png",
+    "static/media/quarter.png": "/portfolio/static/media/quarter.98e8849d5de4df33937e.png",
+    "static/media/layer1.jpg": "/portfolio/static/media/layer1.e8b3f1b8837436968922.jpg",
+    "static/media/shop.png": "/portfolio/static/media/shop.d3ca817275fb73d93cb6.png",
+    "static/media/book.png": "/portfolio/static/media/book.73bdd839fe0435a6038f.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.9f57a77e102657dba63a.png",
     "static/media/my-Image.jpg": "/portfolio/static/media/my-Image.15c501f4c87feb8c841e.jpg",
+    "static/media/wave.png": "/portfolio/static/media/wave.ff4b80ca898e76da7c14.png",
     "static/media/Fashion Fetish Bold.ttf": "/portfolio/static/media/Fashion Fetish Bold.f27d3702496c5ae2149c.ttf",
     "static/media/logo-light.png": "/portfolio/static/media/logo-light.ac60f2c812bc897891dd.png",
-    "static/media/about.svg": "/portfolio/static/media/about.b271a021e7da95d9119ff8aec16d585d.svg",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.d2c4041f.css.map": "/portfolio/static/css/main.d2c4041f.css.map",
-    "main.90b8d165.js.map": "/portfolio/static/js/main.90b8d165.js.map",
-    "787.e4bd7328.chunk.js.map": "/portfolio/static/js/787.e4bd7328.chunk.js.map"
+    "main.8300a5d9.css.map": "/portfolio/static/css/main.8300a5d9.css.map",
+    "main.dfd2beb1.js.map": "/portfolio/static/js/main.dfd2beb1.js.map",
+    "787.8c61e351.chunk.js.map": "/portfolio/static/js/787.8c61e351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2c4041f.css",
-    "static/js/main.90b8d165.js"
+    "static/css/main.8300a5d9.css",
+    "static/js/main.dfd2beb1.js"
   ]
 }
